@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Info Cafe de especialidad" />
+    <item
+        android:id="@+id/origen1"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Origen 1" />
+
+    <item
+        android:id="@+id/origen2"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Origen 2" />
+
+    <item
+        android:id="@+id/origen3"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Origen 3" />
+</menu>

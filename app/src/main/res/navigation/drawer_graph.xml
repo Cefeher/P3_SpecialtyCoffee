@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/origen1"
+        android:name="com.cefehe.p3_specialtycoffee.origen1"
+        android:label="COLOMBIA"
+        tools:layout="@layout/fragment_origen1" />
+    <fragment
+        android:id="@+id/origen2"
+        android:name="com.cefehe.p3_specialtycoffee.origen2"
+        android:label="PERU"
+        tools:layout="@layout/fragment_origen2" />
+    <fragment
+        android:id="@+id/origen3"
+        android:name="com.cefehe.p3_specialtycoffee.origen3"
+        android:label="HONDURAS"
+        tools:layout="@layout/fragment_origen3" />
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.cefehe.p3_specialtycoffee.inicio"
+        android:label="ORIGENES"
+        tools:layout="@layout/fragment_inicio" />
+</navigation>

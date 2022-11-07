@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_graph"
+    app:startDestination="@id/origen1">
+
+    <fragment
+        android:id="@+id/origen1"
+        android:name="com.cefehe.p3_specialtycoffee.origen1"
+        android:label="fragment_origen1"
+        tools:layout="@layout/fragment_origen1" />
+    <fragment
+        android:id="@+id/opcionesCafe1"
+        android:name="com.cefehe.p3_specialtycoffee.OpcionesColombia"
+        android:label="fragment_opciones_colombia"
+        tools:layout="@layout/fragment_opciones_colombia" />
+    <fragment
+        android:id="@+id/opcionesTostador1"
+        android:name="com.cefehe.p3_specialtycoffee.opcionesTostador1"
+        android:label="fragment_opciones_tostador1"
+        tools:layout="@layout/fragment_opciones_tostador1" />
+</navigation>

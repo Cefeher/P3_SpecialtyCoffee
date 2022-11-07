@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/IVColombia"
+            android:layout_width="413dp"
+            android:layout_height="733dp"
+            android:background="@drawable/grano_verde"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/TVInicio"
+            android:layout_width="387dp"
+            android:layout_height="191dp"
+            android:background="@color/purple_200"
+            android:justificationMode="inter_word"
+            android:text="Un denominado ‘café de origen’ es aquel que proviene de un único productor original, es decir, de una región, finca o campo de un país en concreto. Incluso en ocasiones define a un café procedente de la zona de cultivo concreta de una hacienda, llegando a distinguir entre suelos y altitudes. No es lo mismo, por ejemplo, un café de India que uno de Costa Rica, pero dentro del mismo país también hay notables diferencias entre las regiones y los mismos productores. Eso es lo que hace único a cada café de origen, porque permite saber con exactitud de dónde procede cada grano, qué variedad es, cómo se ha cultivado y cómo se ha procesado."
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/IVColombia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.497" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
